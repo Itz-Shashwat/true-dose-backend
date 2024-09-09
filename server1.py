@@ -59,7 +59,7 @@ def fetch_expected_hash(batch_number):
 # Endpoint to handle connection requests
 @app.route('/connect', methods=['GET'])
 def connect():
-    return "Connected to Web Application", 200
+    return "Connected to Web Application"
 
 # Endpoint to handle barcode data upload and process it
 @app.route('/upload-barcode', methods=['POST'])
